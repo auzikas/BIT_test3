@@ -27,7 +27,7 @@ for (var i = 0; i<= 10; i++) {
 
 /*4. Naudojant for ciklą, sugeneruoti penkis atsitiktinius skaičius nuo 1 iki 10. Išvesti juos konsolėje. (5 taškai)*/
 
-for (var i = 0; i<= 10; i++) {
+for (var i = 1; i<= 10; i++) {
     var count = 0;
     for (var j = 0; j < Math.floor(Math.random() * 10); j++) {
         count++;
@@ -38,7 +38,7 @@ for (var i = 0; i<= 10; i++) {
 /*5. Naudojant while ciklą, spausdinti atsitiktinius skaičius nuo 1 iki 10. Paskutinis atspausdintas skaičius turi būti 5. (7 taškai)*/
 
 var arr = [];
-while(arr.length < 5){
+while(arr.length <= 10){
     var r = Math.floor(Math.random() * 10) + 1;
     if(arr.indexOf(r) === -1) arr.push(r);
 }
